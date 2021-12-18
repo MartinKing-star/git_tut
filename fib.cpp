@@ -1,17 +1,18 @@
 #include <bits/stdc++.h>
+#define ll long long 
 using namespace std;
 
-int  fib(int a){
-vector<int> v(a+1,0);
-for(int i=2;i<=a;++i){
+ll  fib(ll a){
+vector<ll> v(a+1,1);
+for(ll i=2;i<=a;++i){
 v[i]=(v[i-1]+v[i-2]);
 }
 return v[a];
 }
 
 int main(){
-int a;
+ll a;
 cin >> a;
-cout << "Fib of " << a << fib(a) << endl;
+cout << "Fib of " << a << " " << fib(a) << endl;
 }
 
