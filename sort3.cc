@@ -7,7 +7,7 @@ void sort(vector<int>& v){
 int sz=v.size();
 for(int i=0;i<sz;++i){
 int min_idx=i;
-for(int j=i+1;j<sz;++i){
+for(int j=i+1;j<sz;++j){
 min_idx=(v[j]<v[min_idx])?j:min_idx;
 }
 swap(v[i],v[min_idx]);
