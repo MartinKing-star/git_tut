@@ -1,10 +1,10 @@
 
 ### C-Program
 
-#sort
+# sort
 there are various sorting algorithms like bubble sort ,insertion sort 
 
-#Data-structures
+# Data-structures
 there are also some data-structures like link_list
 
 ```c++
